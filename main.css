@@ -1,0 +1,60 @@
+:root {
+
+/* Primary Colors*/
+--primary-color: hsl(171, 66%, 44%);
+--secondary-color: hsl(233, 100%, 69%);
+
+/* Neutral Colors*/
+--dark-grayish-blue: hsl(210, 10%, 33%);
+--grayish-blue: hsl(201, 11%, 66%);
+
+}
+
+body * {
+    box-sizing: border-box;
+}    
+
+html {
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
