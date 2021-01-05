@@ -14,21 +14,93 @@ body * {
     box-sizing: border-box;
 }    
 
-html {
-    font-size: 18px;
-}
-
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Bai Jamjuree', sans-serif;
     overflow-x: hidden;
+    font-size: 18px;
 }
 
+.bg-header-desktop {
+    display: flex;
+    background: url(./images/bg-header-desktop.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -137px;
+}
 
+.landing-page-master {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-top: 150px;
+}
 
+/* --- Sección Landing Intro --- */
 
+.landing-page-master .clipboard-landing-intro h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 50px;
+}
 
+.landing-page-master .clipboard-landing-intro h2 {
+    font-size: 18px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 2px 299px;
+    margin-bottom: 40px;
+}
+
+.landing-page-master .clipboard-landing-intro .landing-intro-icon-central {
+    display: flex;
+    background: url(./images/logo.svg) no-repeat center;
+    height: 110px;
+    width: 110px;
+    background-size: 100%;
+    margin-left: 45%;
+
+}
+
+.landing-page-master .clipboard-landing-intro .btn_submit_ios {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 44px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 11px;
+    margin-left: 33%;
+    box-shadow: 1px 3px 2px #2f9681;   
+}
+
+.landing-page-master .clipboard-landing-intro .btn_submit_mac {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 44px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 11px;
+    margin-left: 50%;
+    box-shadow: 1px 3px 2px #5161da;
+    margin-top: -44px;
+
+}
 
 
 
@@ -52,7 +124,8 @@ html, body {
 
 .attribution {
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-left: -10%;
 }
 
 .attribution a { 
