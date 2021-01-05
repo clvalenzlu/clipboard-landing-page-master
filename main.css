@@ -172,25 +172,36 @@ html, body {
     text-align: start;
 }
 
+/* --- Sección Landing Access--- */
+
+.landing-page-master .clipboard-landing-access h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+
+.landing-page-master .clipboard-landing-access h3 {
+    font-size: 18px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 2px 340px;
+    margin-bottom: 0px;
+}
 
 
+.landing-page-master .landing-snippets-access-image {
+    display: flex;
+    height: 900px;
+    width: 900px;
+    background: url(./images/image-devices.png) no-repeat center;
+    background-size: 100%;
+    margin-left: 180px;
+    margin-top: -70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* --- Sección Landing Supercharge--- */
 
 
 
