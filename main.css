@@ -29,11 +29,13 @@ html, body {
     height: 100%;
     position: absolute;
     margin-top: -137px;
+    z-index: -1;
 }
 
 .landing-page-master {
     display: flex;
-    width: 90%;
+    flex-flow: column;
+    width: 100%;
     text-align: center;
     margin-top: 150px;
 }
@@ -52,7 +54,7 @@ html, body {
     font-size: 18px;
     color: var(--grayish-blue);
     font-weight: 400;
-    padding: 2px 299px;
+    padding: 2px 360px;
     margin-bottom: 40px;
 }
 
@@ -99,8 +101,90 @@ html, body {
     margin-left: 50%;
     box-shadow: 1px 3px 2px #5161da;
     margin-top: -44px;
-
 }
+
+/* --- Sección Landing Snippet --- */
+
+.landing-page-master .clipboard-landing-snippets {
+    margin-top: 100px;  
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-text-intro h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-text-intro h3 {
+    font-size: 18px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 2px 325px;
+    margin-bottom: 40px;
+    line-height: 25pt;
+    margin-bottom: 70px;
+}
+
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-image-left {
+    display: flex;
+    background: url(./images/image-computer.png) no-repeat;
+    height: 800px;
+    width: 800px;
+    background-size: 100%;
+    margin-left: -125px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples {
+    margin-top: -60%;
+    margin-left: 40%;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples .snippets-article-quick h2 {
+    margin-left: -178px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples .snippets-article-icloud h2 {
+    margin-left: -188px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples .snippets-article-complete h2 {
+    margin-left: -125px;
+}
+
+.landing-page-master .clipboard-landing-snippets .landing-snippets-examples h3 {
+    font-size: 15px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 2px 235px;
+    line-height: 25pt;
+    margin-bottom: 70px;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
