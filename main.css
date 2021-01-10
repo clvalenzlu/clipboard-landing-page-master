@@ -12,12 +12,12 @@
 
 body * {
     box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
 }    
 
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Bai Jamjuree', sans-serif;
     overflow-x: hidden;
     font-size: 18px;
 }
@@ -74,7 +74,6 @@ html, body {
     width: 200px;
     height: 44px;
     font-size: 18px;
-    font-family: 'Bai Jamjuree', sans-serif;
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -91,7 +90,6 @@ html, body {
     width: 200px;
     height: 44px;
     font-size: 18px;
-    font-family: 'Bai Jamjuree', sans-serif;
     background-color: var(--secondary-color);
     color: white;
     border: none;
@@ -198,10 +196,80 @@ html, body {
     background: url(./images/image-devices.png) no-repeat center;
     background-size: 100%;
     margin-left: 180px;
-    margin-top: -70px;
+    margin-top: -70px;  
+    margin-bottom: -150px;
 }
 
 /* --- Sección Landing Supercharge--- */
+
+.landing-page-master .clipboard-landing-supercharge h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.landing-page-master .clipboard-landing-supercharge h3 {
+    font-size: 18px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper [class^='supercharge-image-'] {
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto 20px;
+}
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper .supercharge-image-create {
+    background-image: url(./images/icon-blacklist.svg);
+}
+
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper p {
+    font-size: 15px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 2;
+}
+
+.landing-page-master .clipboard-landing-supercharge .supercharge-box {
+    width: 30%;
+    padding: 20px 10px;
+}
+
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper .supercharge-image-plain {
+    background-image: url(./images/icon-text.svg);
+}
+
+.landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper .supercharge-image-sneak {
+    background-image: url(./images/icon-preview.svg);
+}
+
+
 
 
 
