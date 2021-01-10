@@ -65,40 +65,26 @@ html, body {
     width: 110px;
     background-size: 100%;
     margin-left: 45%;
-
 }
 
-.landing-page-master .clipboard-landing-intro .btn_submit_ios {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 44px;
+.landing-page-master .clipboard-landing-intro [class^="btn-submit"] {
     font-size: 18px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 14px 40px;
+}
+
+.landing-page-master .clipboard-landing-intro .btn-submit-ios {
     background-color: var(--primary-color);
-    color: white;
-    border: none;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 11px;
-    margin-left: 33%;
-    box-shadow: 1px 3px 2px #2f9681;   
+    box-shadow: 1px 3px 2px #2f9681;
+    margin-right: 10px;    
 }
 
-.landing-page-master .clipboard-landing-intro .btn_submit_mac {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 44px;
-    font-size: 18px;
+.landing-page-master .clipboard-landing-intro .btn-submit-mac {
     background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 11px;
-    margin-left: 50%;
     box-shadow: 1px 3px 2px #5161da;
-    margin-top: -44px;
 }
 
 /* --- Sección Landing Snippet --- */
@@ -202,12 +188,16 @@ html, body {
 
 /* --- Sección Landing Supercharge--- */
 
+.landing-page-master .clipboard-landing-supercharge {
+    padding: 50px 10px 50px 10px;
+}
+
 .landing-page-master .clipboard-landing-supercharge h2 {
     font-size: 35px;
     font-weight: 600;
     color: var(--dark-grayish-blue);
-    margin-bottom: 0;
-    margin-top: 50px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .landing-page-master .clipboard-landing-supercharge h3 {
@@ -220,9 +210,9 @@ html, body {
 .landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper {
     display: flex;
     justify-content: center;
-    max-width: 1150px;
+    max-width: 1100px;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 
 .landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper [class^='supercharge-image-'] {
@@ -231,7 +221,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
 }
 
 .landing-page-master .clipboard-landing-supercharge .landing-supercharge-wrapper .supercharge-image-create {
@@ -256,8 +246,8 @@ html, body {
 }
 
 .landing-page-master .clipboard-landing-supercharge .supercharge-box {
-    width: 30%;
-    padding: 20px 10px;
+    width: 33.33%;
+    padding: 20px;
 }
 
 
@@ -270,15 +260,63 @@ html, body {
 }
 
 
+.landing-page-master .clipboard-landing-sponsors {
+    padding: 50px 10px 50px 10px;
+}
+
+.landing-page-master .clipboard-sponsors-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.landing-page-master .clipboard-sponsors-wrapper img {
+    max-width: 100%;
+}
+
+/* --- Sección Landing Dowload--- */
+
+.landing-page-master .clipboard-landing-dowload h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.landing-page-master .clipboard-landing-dowload h3 {
+    font-size: 18px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    padding: 2px 330px;
+    margin-bottom: 40px;
+    line-height: 2;
+}
 
 
+.landing-page-master .clipboard-landing-dowload [class^="btn-submit"] {
+    font-size: 18px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 14px 40px;
+}
 
+.landing-page-master .clipboard-landing-dowload .btn-submit-ios {
+    background-color: var(--primary-color);
+    box-shadow: 1px 3px 2px #2f9681;
+    margin-right: 10px;    
+}
 
-
-
-
-
-
+.landing-page-master .clipboard-landing-dowload .btn-submit-mac {
+    background-color: var(--secondary-color);
+    box-shadow: 1px 3px 2px #5161da;
+}
 
 
 
