@@ -322,43 +322,75 @@ html, body {
 /* --- Sección Landing Footer-- */
 
 .landing-page-master .clipboard-landing-footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;    
-    max-width: 1100px;
-    background-color: #f5f6f8;
+    width: 100%;
+    background-color: 
+    #f5f6f8;
     margin-top: 130px;
+    padding: 40px 10px;
 }
 
-.landing-page-master .clipboard-landing-footer .landing-footer-logo {
+.landing-page-master .clipboard-landing-footer-wrapper {
     display: flex;
-    justify-content: start;
-    background: url(./images/logo.svg) no-repeat center;
-    height: 50px;
-    width: 50px;
-    background-size: 100%;
-    margin: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
+
+.landing-page-master .clipboard-landing-footer .landing-footer-left {
+    display: flex;
+    align-items: flex-start;
+    width: 20%;
+}
+
+.landing-page-master .clipboard-landing-footer .landing-footer-left img {
+    width: 100%;
+    max-width: 55px;
 }
 
 .landing-page-master .clipboard-landing-footer li {
     list-style-type: none;
+    text-align: left;
 }
 
 .landing-page-master .clipboard-landing-footer a {
     text-decoration: none;
 }
+ 
+.landing-page-master .clipboard-landing-footer ul {
+    margin: 0;
+    padding: 0 15px;    
+}
 
-.landing-page-master .clipboard-landing-footer .landing-footer-contact {
-    color: var(--dark-grayish-blue);
+.landing-page-master .clipboard-landing-footer .landing-footer-center li {
+    margin: 0 15px 15px;
 }
 
 
-.landing-page-master .clipboard-landing-footer .landing-footer-social-icons {
+.landing-page-master .clipboard-landing-footer .landing-footer-center {
     display: flex;
-    margin: 30px;
+    color: var(--dark-grayish-blue);
+    width: 60%;
 }
 
+
+.landing-page-master .clipboard-landing-footer .landing-footer-right-social-icons {
+    display: flex;
+    width: 20%;
+}
+
+.landing-page-master .clipboard-landing-footer .landing-footer-right-social-icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.landing-page-master .clipboard-landing-footer .landing-footer-right-social-icons li {
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
 
 .attribution {
     font-size: 11px; 
