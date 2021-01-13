@@ -22,25 +22,21 @@ html, body {
     font-size: 18px;
 }
 
-.bg-header-desktop {
-    display: flex;
-    background: url(./images/bg-header-desktop.png) no-repeat center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin-top: -137px;
-    z-index: -1;
-}
-
 .landing-page-master {
     display: flex;
     flex-flow: column;
     width: 100%;
     text-align: center;
-    margin-top: 150px;
 }
 
 /* --- Sección Landing Intro --- */
+
+.landing-page-master .clipboard-landing-intro {
+    width: 100%;
+    background: url(./images/bg-header-desktop.png) no-repeat center top;
+    padding-top: 150px;
+
+}
 
 .landing-page-master .clipboard-landing-intro h1 {
     font-size: 40px;
@@ -400,4 +396,139 @@ html, body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+/*--Para responsivo mobile --*/
+
+@media all and (max-width: 768px) {
+
+    /* --- Sección Landing Intro --- */
+
+    .bg-header-desktop {
+        margin-top: -20px;
+    }
+
+    .landing-page-master h1 {
+        font-size: 30px;
+    }
+
+    .landing-page-master h2 {
+        font-size: 30px;
+        padding: 0 20px;
+    }
+
+    .landing-page-master .clipboard-landing-intro h2 {
+        padding: 2px 30px;  
+    }
+
+    .landing-page-master .clipboard-landing-intro .landing-intro-logo-central {
+        margin-left: 40%;
+    }
+
+    .landing-page-master .clipboard-landing-intro [class^="btn-submit"] {
+        padding: 14px 80px;
+    }
+
+    .landing-page-master .clipboard-landing-intro .landing-intro-buttons-wrapper {
+        width: 80%;
+        margin: 0 12%;
+    }
+
+    .landing-page-master .clipboard-landing-intro .btn-submit-ios {
+        margin-bottom: 40px;    
+    }
+
+    /* --- Sección Landing Snippet --- */
+
+    .landing-page-master .clipboard-landing-snippets .landing-snippets-text-intro h3 {
+        padding: 2px 35px;
+    }
+
+    .landing-page-master .clipboard-landing-snippets .landing-snippets-image-left {
+        background: url(./images/image-computer.png) no-repeat center;
+        height: 300px;
+        width: 300px;
+        margin: 10px 50px;
+    }
+
+    .landing-page-master .clipboard-landing-snippets .landing-snippets-examples h2 {
+        margin-left: 0px;
+    }
+
+    .landing-page-master .clipboard-landing-snippets .landing-snippets-examples h3 {
+        padding: 2px 50px;
+        margin-bottom: 15px;
+        text-align: start;
+    }
+
+    /* --- Sección Landing Access--- */
+
+    .landing-page-master .clipboard-landing-access h3 {
+        padding: 2px 18px;
+    }
+    
+    .landing-page-master .landing-snippets-access-image {
+        height: 350px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    /* --- Sección Landing Supercharge--- */
+
+    .landing-page-master .clipboard-landing-supercharge h3 {
+        padding: 0 10px;
+    }
+
+    .landing-page-master .clipboard-landing-supercharge .supercharge-box {
+        width: 70%;
+        margin-left: -50px;
+    }
+
+    .landing-page-master .clipboard-sponsors-wrapper img {
+        display: flex;
+        max-width: 100%;
+        margin-left: 100px;
+        padding: 30px;
+    }
+
+    /* --- Sección Landing Dowload--- */
+
+    .landing-page-master .clipboard-landing-dowload h3 {
+        padding: 2px 38px;
+    }
+
+    .landing-page-master .clipboard-landing-dowload [class^="btn-submit"] {
+        padding: 14px 80px;
+        margin-bottom: 40px;
+    }
+
+    /* --- Sección Landing Footer-- */
+
+    .landing-page-master .clipboard-landing-footer-wrapper {
+        width: 100%;
+        max-width: 1100px;
+        margin-left: 50px;
+        padding: 20px;
+    }
+
+    .landing-page-master .clipboard-landing-footer .landing-footer-left {
+        align-items: flex-start;
+        width: 20%;
+    }
+
+    .landing-page-master .clipboard-landing-footer .landing-footer-left img {
+        margin-left: 50px;
+    }
+
+    .landing-page-master .clipboard-landing-footer .landing-footer-center {
+        color: var(--dark-grayish-blue);
+        width: 60%;
+    }
+
+    .landing-page-master .clipboard-landing-footer .landing-footer-right-social-icons {
+        width: 80%;
+        margin-left: -50px;
+    }
+
 }
